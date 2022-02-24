@@ -1,0 +1,2 @@
+P:/mysql-connector-cpp/_build/platform-cache/CMakeFiles/ALL_BUILD.dir
+P:/mysql-connector-cpp/_build/platform-cache/CMakeFiles/ZERO_CHECK.dir

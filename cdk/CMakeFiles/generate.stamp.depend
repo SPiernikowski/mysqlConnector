@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/ProcessorCount.cmake
+P:/mysql-connector-cpp/cdk/CMakeLists.txt
+P:/mysql-connector-cpp/cdk/cmake/DepFindCoverage.cmake
+P:/mysql-connector-cpp/cdk/cmake/DepFindRapidJSON.cmake
+P:/mysql-connector-cpp/cdk/cmake/DepFindSSL.cmake
+P:/mysql-connector-cpp/cdk/cmake/config_header.cmake
+P:/mysql-connector-cpp/cdk/cmake/config_options.cmake
+P:/mysql-connector-cpp/cdk/cmake/dependency.cmake
+P:/mysql-connector-cpp/cdk/cmake/platform.cmake
+P:/mysql-connector-cpp/cdk/cmake/setup.cmake
+P:/mysql-connector-cpp/cdk/config.h.in

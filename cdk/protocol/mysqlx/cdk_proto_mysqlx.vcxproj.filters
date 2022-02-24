@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\protocol.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\protocol_compression.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\session.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\rset.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\stmt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\crud.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_connection.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_crud.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_cursor.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_datatypes.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_expect.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_expr.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_notice.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_prepare.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_resultset.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_session.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx_sql.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf\mysqlx.pb.cc">
+      <Filter>Protobuf Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\builders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\protocol_compression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\18841169013bdcc9ec8e2079a332732e\prepare_pb_lite.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_connection.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_connection.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_crud.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_crud.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_cursor.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_cursor.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_datatypes.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_datatypes.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_expect.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_expect.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_expr.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_expr.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_notice.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_notice.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_prepare.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_prepare.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_resultset.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_resultset.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_session.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_session.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx_sql.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx_sql.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\7df5c94da381bdd7c4f47a45cd6875ba\mysqlx.proto.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\5933c804c14798d358e4f6b14be905fc\mysqlx.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\cdk\protocol\mysqlx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_connection.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_crud.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_cursor.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_datatypes.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_expect.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_expr.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_notice.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_prepare.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_resultset.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_session.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx_sql.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+    <None Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lite\mysqlx.proto">
+      <Filter>Protobuf Definitions</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7480674F-93BA-3064-A59C-24B53156158A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF4EFE9D-9E0A-355A-98DD-DA00C9CA8893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf Definitions">
+      <UniqueIdentifier>{0F6E1195-144D-3309-BE6E-DF9FAD8976AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf Generated">
+      <UniqueIdentifier>{2E382947-58A6-316D-9E43-C42A1D38E8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E681429B-1465-3445-9E5C-A7C81F80FCDD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+Performing C++ SOURCE FILE Test HAVE_IS_SAME failed with the following output:
+Change Dir: P:/mysql-connector-cpp/_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c1c98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine 17.0.0+c9eb9dd64 dla platformy .NET Framework
+Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeľone.
+
+  Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.30.30709 dla x64
+  src.cxx
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+  cl /c /I"C:\vcpkg-master\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IS_SAME /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c1c98.dir\Debug\\" /Fd"cmTC_c1c98.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  -std=c++11 "P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\src.cxx"
+cl : wiersz polecenia warning D9002: ignorowanie nieznanej opcji "-std=c++11" [P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\cmTC_c1c98.vcxproj]
+P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\src.cxx(1,22): error C2065: "is_same": niezadeklarowany identyfikator [P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\cmTC_c1c98.vcxproj]
+P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\src.cxx(1,30): error C2062: nieoczekiwany typ "bool" [P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\cmTC_c1c98.vcxproj]
+P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\src.cxx(1,42): error C2039: "value": nie jest skadowĄ elementu "`global namespace'" [P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\cmTC_c1c98.vcxproj]
+
+
+Source file was:
+void main() { return is_same<bool,char>::value; }
+Determining if the include file sys/endian.h exists failed with the following output:
+Change Dir: P:/mysql-connector-cpp/_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dce7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine 17.0.0+c9eb9dd64 dla platformy .NET Framework
+Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeľone.
+
+  Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.30.30709 dla x64
+  CheckIncludeFile.c
+P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Nie moľna otworzy† pliku doĄcz: 'sys/endian.h': No such file or directory [P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\cmTC_dce7e.vcxproj]
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+  cl /c /I"C:\vcpkg-master\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dce7e.dir\Debug\\" /Fd"cmTC_dce7e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/byteorder.h exists failed with the following output:
+Change Dir: P:/mysql-connector-cpp/_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fc392.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine 17.0.0+c9eb9dd64 dla platformy .NET Framework
+Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeľone.
+
+  Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.30.30709 dla x64
+  CheckIncludeFile.c
+P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Nie moľna otworzy† pliku doĄcz: 'sys/byteorder.h': No such file or directory [P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\cmTC_fc392.vcxproj]
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+  cl /c /I"C:\vcpkg-master\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc392.dir\Debug\\" /Fd"cmTC_fc392.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "P:\mysql-connector-cpp\_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+
+
+

@@ -1,0 +1,10 @@
+^P:\MYSQL-CONNECTOR-CPP\CDK\EXTRA\LZ4\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/mysql-connector-cpp/cdk/extra/lz4 -BP:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/lz4 --check-stamp-file P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/lz4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

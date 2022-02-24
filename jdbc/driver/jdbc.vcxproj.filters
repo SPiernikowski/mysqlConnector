@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_art_resultset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_art_rset_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_parameter_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_prepared_statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_ps_resultset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_ps_resultset_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_resultbind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_resultset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_resultset_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_warning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\mysql_uri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_client_api.cpp">
+      <Filter>NativeApi</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\library_loader.cpp">
+      <Filter>NativeApi</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_driver_wrapper.cpp">
+      <Filter>NativeApi</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_connection_wrapper.cpp">
+      <Filter>NativeApi</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_statement_wrapper.cpp">
+      <Filter>NativeApi</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_resultset_wrapper.cpp">
+      <Filter>NativeApi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_art_resultset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_art_rset_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_connection_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_parameter_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_prepared_statement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_ps_resultset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_ps_resultset_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_resultbind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_resultset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_resultset_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_statement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_warning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\mysql_uri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\_build\jdbc\driver\version_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_client_api.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_driver_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\native_driver_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_connection_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\native_connection_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_statement_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\native_statement_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\mysql_native_resultset_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\driver\nativeapi\native_resultset_wrapper.h">
+      <Filter>NativeApi</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\warning.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\statement.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\sqlstring.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\resultset_metadata.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\resultset.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\prepared_statement.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\parameter_metadata.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\metadata.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\exception.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\driver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\datatype.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\variant.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\connection.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\_build\jdbc\cppconn\config.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\jdbc\cppconn\build_config.h">
+      <Filter>API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="P:\mysql-connector-cpp\jdbc\driver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{0B486CE8-31AD-336A-961D-6A4C606A2DB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF4EFE9D-9E0A-355A-98DD-DA00C9CA8893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NativeApi">
+      <UniqueIdentifier>{F0C6B28E-F659-30EB-9A5F-DE90F5D61B1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E681429B-1465-3445-9E5C-A7C81F80FCDD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

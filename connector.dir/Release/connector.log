@@ -1,0 +1,20 @@
+﻿  Extracting dependency info for target connector
+  connector.vcxproj -> P:\mysql-connector-cpp\_build\Release\mysqlcppconn8-static.lib
+  Merging STATIC library: P:\mysql-connector-cpp\_build\Release\mysqlcppconn8-static.lib
+  CMake Error at libutils/merge_archives.cmake:152 (message):
+    No dependency data available when merging static library
+    P:\mysql-connector-cpp\_build\Release\mysqlcppconn8-static.lib
+  Call Stack (most recent call first):
+    libutils/merge_archives.cmake:780 (main)
+  
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: The command "setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -DTARGET=P:/mysql-connector-cpp/_build/Release/mysqlcppconn8-static.lib -DTYPE=STATIC -DBUILD_LOG=P:/mysql-connector-cpp/_build/Release/connector.log.STATIC -DMSBUILD=ON -DMSVC=19.30.30709.0 -DINFO= -DINFO_PREFIX= -P P:/mysql-connector-cpp/_build/libutils/merge_archives.cmake
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :VCEnd" exited with code 1.

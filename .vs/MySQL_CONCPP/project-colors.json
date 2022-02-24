@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "31f79c53-79b9-3354-b6b6-23049fd633cf": {
+      "ProjectGuid": "31f79c53-79b9-3354-b6b6-23049fd633cf",
+      "DisplayName": "try_jdbc",
+      "ColorIndex": 0
+    },
+    "cc7b2fbb-3e67-3bdb-ae66-0d4109cce0a3": {
+      "ProjectGuid": "cc7b2fbb-3e67-3bdb-ae66-0d4109cce0a3",
+      "DisplayName": "try",
+      "ColorIndex": 1
+    },
+    "a1b70cef-2708-351b-800c-5d792328873d": {
+      "ProjectGuid": "a1b70cef-2708-351b-800c-5d792328873d",
+      "DisplayName": "devapi",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bc3a7f55-ad42-36f3-9e28-3179d99a4459": {
+      "ProjectGuid": "bc3a7f55-ad42-36f3-9e28-3179d99a4459",
+      "DisplayName": "connector-jdbc",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

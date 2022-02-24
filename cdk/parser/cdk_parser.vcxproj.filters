@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\parser\tokenizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\parser\json_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\parser\expr_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\parser\uri_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\parser\char_iterator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\parser\expr_parser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\parser\json_parser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\parser\parser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\parser\tokenizer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\parser\uri_parser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="P:\mysql-connector-cpp\cdk\parser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{FB004CBD-FF94-3E0E-ADBB-153E14987235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E681429B-1465-3445-9E5C-A7C81F80FCDD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

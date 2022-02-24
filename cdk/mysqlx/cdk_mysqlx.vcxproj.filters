@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\mysqlx\session.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\mysqlx\result.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\mysql-connector-cpp\cdk\mysqlx\auth_hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\mysqlx\auth_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\mysqlx\converters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P:\mysql-connector-cpp\cdk\mysqlx\stmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="P:\mysql-connector-cpp\cdk\mysqlx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF4EFE9D-9E0A-355A-98DD-DA00C9CA8893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E681429B-1465-3445-9E5C-A7C81F80FCDD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

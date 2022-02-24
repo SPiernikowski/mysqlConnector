@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/ProcessorCount.cmake
+P:/mysql-connector-cpp/_build/jdbc/VersionInfo.cmake
+P:/mysql-connector-cpp/cdk/cmake/config_options.cmake
+P:/mysql-connector-cpp/cdk/cmake/dependency.cmake
+P:/mysql-connector-cpp/cdk/cmake/platform.cmake
+P:/mysql-connector-cpp/cmake/libutils.cmake
+P:/mysql-connector-cpp/cmake/setup.cmake
+P:/mysql-connector-cpp/jdbc/CMakeLists.txt
+P:/mysql-connector-cpp/jdbc/VersionInfo.cmake.in
+P:/mysql-connector-cpp/jdbc/cmake/DepFindBoost.cmake
+P:/mysql-connector-cpp/jdbc/cmake/DepFindMySQL.cmake
+P:/mysql-connector-cpp/jdbc/cmake/setup.cmake
+P:/mysql-connector-cpp/jdbc/install_layout.cmake

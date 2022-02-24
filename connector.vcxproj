@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DACB29EE-00BF-3A44-8382-09BC75E875AA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>connector</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">P:\mysql-connector-cpp\_build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">connector.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mysqlcppconn8-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">P:\mysql-connector-cpp\_build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">connector.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mysqlcppconn8-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">P:\mysql-connector-cpp\_build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">connector.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mysqlcppconn8-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">P:\mysql-connector-cpp\_build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">connector.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mysqlcppconn8-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4702;4297</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Extracting dependency info for target connector</Message>
+      <Command>setlocal
+cd P:\mysql-connector-cpp\_build
+if %errorlevel% neq 0 goto :cmEnd
+P:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --target connector-deps --config Debug -- /nologo /v:q /filelogger /flp:Verbosity=q /flp:ShowCommandLine /flp:LogFile="P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DTARGET=P:/mysql-connector-cpp/_build/Debug/mysqlcppconn8-static.lib -DTYPE=STATIC -DBUILD_LOG=P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC -DMSBUILD=ON -DMSVC=19.30.30709.0 -DINFO= -DINFO_PREFIX= -P P:/mysql-connector-cpp/_build/libutils/merge_archives.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4702;4297</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Extracting dependency info for target connector</Message>
+      <Command>setlocal
+cd P:\mysql-connector-cpp\_build
+if %errorlevel% neq 0 goto :cmEnd
+P:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --target connector-deps --config Release -- /nologo /v:q /filelogger /flp:Verbosity=q /flp:ShowCommandLine /flp:LogFile="P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DTARGET=P:/mysql-connector-cpp/_build/Release/mysqlcppconn8-static.lib -DTYPE=STATIC -DBUILD_LOG=P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC -DMSBUILD=ON -DMSVC=19.30.30709.0 -DINFO= -DINFO_PREFIX= -P P:/mysql-connector-cpp/_build/libutils/merge_archives.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4702;4297</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Extracting dependency info for target connector</Message>
+      <Command>setlocal
+cd P:\mysql-connector-cpp\_build
+if %errorlevel% neq 0 goto :cmEnd
+P:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --target connector-deps --config MinSizeRel -- /nologo /v:q /filelogger /flp:Verbosity=q /flp:ShowCommandLine /flp:LogFile="P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DTARGET=P:/mysql-connector-cpp/_build/MinSizeRel/mysqlcppconn8-static.lib -DTYPE=STATIC -DBUILD_LOG=P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC -DMSBUILD=ON -DMSVC=19.30.30709.0 -DINFO= -DINFO_PREFIX= -P P:/mysql-connector-cpp/_build/libutils/merge_archives.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4702;4297</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_CXX11_NOEXCEPT=1;RAPIDJSON_HAS_CXX11_RANGE_FOR=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS=1;STATIC_CONCPP;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>P:\mysql-connector-cpp\include;P:\mysql-connector-cpp\_build\common;P:\mysql-connector-cpp\cdk\include;P:\mysql-connector-cpp\_build\cdk\include;P:\mysql-connector-cpp\cdk\extra\rapidjson\include;P:\mysql-connector-cpp\cdk\parser;P:\mysql-connector-cpp\cdk\extra\protobuf\protobuf-3.11.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Extracting dependency info for target connector</Message>
+      <Command>setlocal
+cd P:\mysql-connector-cpp\_build
+if %errorlevel% neq 0 goto :cmEnd
+P:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --target connector-deps --config RelWithDebInfo -- /nologo /v:q /filelogger /flp:Verbosity=q /flp:ShowCommandLine /flp:LogFile="P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DTARGET=P:/mysql-connector-cpp/_build/RelWithDebInfo/mysqlcppconn8-static.lib -DTYPE=STATIC -DBUILD_LOG=P:/mysql-connector-cpp/_build/$(Configuration)/connector.log.STATIC -DMSBUILD=ON -DMSVC=19.30.30709.0 -DINFO= -DINFO_PREFIX= -P P:/mysql-connector-cpp/_build/libutils/merge_archives.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="P:\mysql-connector-cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule P:/mysql-connector-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/mysql-connector-cpp -BP:/mysql-connector-cpp/_build --check-stamp-file P:/mysql-connector-cpp/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\TestBigEndian.cmake;P:\mysql-connector-cpp\INFO_BIN.in;P:\mysql-connector-cpp\INFO_SRC.in;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCXXCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeRCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeSystem.cmake;P:\mysql-connector-cpp\buildinfo.cmake;P:\mysql-connector-cpp\cdk\cmake\DepFindCoverage.cmake;P:\mysql-connector-cpp\cdk\cmake\bootstrap.cmake;P:\mysql-connector-cpp\cdk\cmake\compiler\MSVC.cmake;P:\mysql-connector-cpp\cdk\cmake\config_options.cmake;P:\mysql-connector-cpp\cdk\cmake\dependency.cmake;P:\mysql-connector-cpp\cdk\cmake\platform.cmake;P:\mysql-connector-cpp\cdk\cmake\setup.cmake;P:\mysql-connector-cpp\cdk\cmake\testing.cmake;P:\mysql-connector-cpp\cmake\libutils.cmake;P:\mysql-connector-cpp\cmake\libutils\merge_archives.cmake.in;P:\mysql-connector-cpp\cmake\setup.cmake;P:\mysql-connector-cpp\install_layout.cmake;P:\mysql-connector-cpp\testing\tests.cmake;P:\mysql-connector-cpp\version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">P:\mysql-connector-cpp\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule P:/mysql-connector-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/mysql-connector-cpp -BP:/mysql-connector-cpp/_build --check-stamp-file P:/mysql-connector-cpp/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\TestBigEndian.cmake;P:\mysql-connector-cpp\INFO_BIN.in;P:\mysql-connector-cpp\INFO_SRC.in;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCXXCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeRCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeSystem.cmake;P:\mysql-connector-cpp\buildinfo.cmake;P:\mysql-connector-cpp\cdk\cmake\DepFindCoverage.cmake;P:\mysql-connector-cpp\cdk\cmake\bootstrap.cmake;P:\mysql-connector-cpp\cdk\cmake\compiler\MSVC.cmake;P:\mysql-connector-cpp\cdk\cmake\config_options.cmake;P:\mysql-connector-cpp\cdk\cmake\dependency.cmake;P:\mysql-connector-cpp\cdk\cmake\platform.cmake;P:\mysql-connector-cpp\cdk\cmake\setup.cmake;P:\mysql-connector-cpp\cdk\cmake\testing.cmake;P:\mysql-connector-cpp\cmake\libutils.cmake;P:\mysql-connector-cpp\cmake\libutils\merge_archives.cmake.in;P:\mysql-connector-cpp\cmake\setup.cmake;P:\mysql-connector-cpp\install_layout.cmake;P:\mysql-connector-cpp\testing\tests.cmake;P:\mysql-connector-cpp\version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">P:\mysql-connector-cpp\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule P:/mysql-connector-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/mysql-connector-cpp -BP:/mysql-connector-cpp/_build --check-stamp-file P:/mysql-connector-cpp/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\TestBigEndian.cmake;P:\mysql-connector-cpp\INFO_BIN.in;P:\mysql-connector-cpp\INFO_SRC.in;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCXXCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeRCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeSystem.cmake;P:\mysql-connector-cpp\buildinfo.cmake;P:\mysql-connector-cpp\cdk\cmake\DepFindCoverage.cmake;P:\mysql-connector-cpp\cdk\cmake\bootstrap.cmake;P:\mysql-connector-cpp\cdk\cmake\compiler\MSVC.cmake;P:\mysql-connector-cpp\cdk\cmake\config_options.cmake;P:\mysql-connector-cpp\cdk\cmake\dependency.cmake;P:\mysql-connector-cpp\cdk\cmake\platform.cmake;P:\mysql-connector-cpp\cdk\cmake\setup.cmake;P:\mysql-connector-cpp\cdk\cmake\testing.cmake;P:\mysql-connector-cpp\cmake\libutils.cmake;P:\mysql-connector-cpp\cmake\libutils\merge_archives.cmake.in;P:\mysql-connector-cpp\cmake\setup.cmake;P:\mysql-connector-cpp\install_layout.cmake;P:\mysql-connector-cpp\testing\tests.cmake;P:\mysql-connector-cpp\version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">P:\mysql-connector-cpp\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule P:/mysql-connector-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/mysql-connector-cpp -BP:/mysql-connector-cpp/_build --check-stamp-file P:/mysql-connector-cpp/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\TestBigEndian.cmake;P:\mysql-connector-cpp\INFO_BIN.in;P:\mysql-connector-cpp\INFO_SRC.in;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeCXXCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeRCCompiler.cmake;P:\mysql-connector-cpp\_build\CMakeFiles\3.22.20220129-g20cb649\CMakeSystem.cmake;P:\mysql-connector-cpp\buildinfo.cmake;P:\mysql-connector-cpp\cdk\cmake\DepFindCoverage.cmake;P:\mysql-connector-cpp\cdk\cmake\bootstrap.cmake;P:\mysql-connector-cpp\cdk\cmake\compiler\MSVC.cmake;P:\mysql-connector-cpp\cdk\cmake\config_options.cmake;P:\mysql-connector-cpp\cdk\cmake\dependency.cmake;P:\mysql-connector-cpp\cdk\cmake\platform.cmake;P:\mysql-connector-cpp\cdk\cmake\setup.cmake;P:\mysql-connector-cpp\cdk\cmake\testing.cmake;P:\mysql-connector-cpp\cmake\libutils.cmake;P:\mysql-connector-cpp\cmake\libutils\merge_archives.cmake.in;P:\mysql-connector-cpp\cmake\setup.cmake;P:\mysql-connector-cpp\install_layout.cmake;P:\mysql-connector-cpp\testing\tests.cmake;P:\mysql-connector-cpp\version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">P:\mysql-connector-cpp\_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P:\mysql-connector-cpp\cmake\libutils\empty.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\ZERO_CHECK.vcxproj">
+      <Project>{C4D7E7B2-8305-33A8-B9CC-FC15457C6CD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\core\cdk.vcxproj">
+      <Project>{E0246C8B-8DC4-317F-9953-4EE52961505A}</Project>
+      <Name>cdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\foundation\cdk_foundation.vcxproj">
+      <Project>{F193E26A-26B7-3539-BF81-9FDF34CD8AED}</Project>
+      <Name>cdk_foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\mysqlx\cdk_mysqlx.vcxproj">
+      <Project>{D98981FE-3841-3992-905A-50F5C1270A48}</Project>
+      <Name>cdk_mysqlx</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\parser\cdk_parser.vcxproj">
+      <Project>{47E004A2-5F6A-31DC-8AAB-70AB4BE6606A}</Project>
+      <Name>cdk_parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\cdk_proto_mysqlx.vcxproj">
+      <Project>{135D6EE0-1C73-3E87-A107-632F75C96B98}</Project>
+      <Name>cdk_proto_mysqlx</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\common\common.vcxproj">
+      <Project>{7572D5B4-3C96-3971-9F3E-1609FBE78CDA}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\devapi\devapi.vcxproj">
+      <Project>{A1B70CEF-2708-351B-800C-5D792328873D}</Project>
+      <Name>devapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\lz4-build.vcxproj">
+      <Project>{084AADA4-6C79-33E3-8781-7E5FE0C1889E}</Project>
+      <Name>lz4-build</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\protobuf-build.vcxproj">
+      <Project>{10A90BA0-9D05-3606-83D6-CB84A6CD29E5}</Project>
+      <Name>protobuf-build</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\xapi\xapi.vcxproj">
+      <Project>{8DE188F4-4704-3919-B79A-B5FF758F8B63}</Project>
+      <Name>xapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\zlib-build.vcxproj">
+      <Project>{0E5003D6-2948-3FE9-A7EA-7F3929CD4881}</Project>
+      <Name>zlib-build</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="P:\mysql-connector-cpp\_build\cdk\protocol\mysqlx\zstd-build.vcxproj">
+      <Project>{C999CD99-6FF0-394B-A213-22738342FA1D}</Project>
+      <Name>zstd-build</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

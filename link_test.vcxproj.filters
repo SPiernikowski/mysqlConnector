@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="P:\mysql-connector-cpp\_build\CMakeFiles\a20df2119e12efb35bc332c11d567134\link_test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="P:\mysql-connector-cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="P:\mysql-connector-cpp\_build\CMakeFiles\link_test" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7480674F-93BA-3064-A59C-24B53156158A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
