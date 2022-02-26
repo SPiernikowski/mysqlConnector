@@ -1,7 +1,0 @@
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/CMakeFiles/ALL_BUILD.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/CMakeFiles/ZERO_CHECK.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/protobuf-3.11.4/cmake/CMakeFiles/libprotobuf-lite.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/protobuf-3.11.4/cmake/CMakeFiles/libprotobuf.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/protobuf-3.11.4/cmake/CMakeFiles/libprotoc.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/protobuf-3.11.4/cmake/CMakeFiles/protoc.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/protobuf-3.11.4/cmake/CMakeFiles/ALL_BUILD.dir

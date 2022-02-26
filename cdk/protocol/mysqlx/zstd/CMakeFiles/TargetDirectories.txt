@@ -1,3 +1,0 @@
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/zstd/CMakeFiles/zstd.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/zstd/CMakeFiles/ALL_BUILD.dir
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/zstd/CMakeFiles/ZERO_CHECK.dir

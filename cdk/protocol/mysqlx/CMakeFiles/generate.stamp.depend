@@ -1,9 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/lz4/exports.cmake
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/protobuf/exports.cmake
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/zlib/exports.cmake
-P:/mysql-connector-cpp/_build/cdk/protocol/mysqlx/zstd/exports.cmake
-P:/mysql-connector-cpp/cdk/cmake/DepFindCompression.cmake
-P:/mysql-connector-cpp/cdk/cmake/DepFindProtobuf.cmake
-P:/mysql-connector-cpp/cdk/protocol/mysqlx/CMakeLists.txt
